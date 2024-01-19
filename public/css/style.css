@@ -1,0 +1,89 @@
+body{
+    background-color: #33328C;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow-x: hidden;
+}
+
+#formulaire{
+    background-color: #201F52;
+    height: 350px;
+    width: 300px;
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+    flex-direction: column;
+    gap: 8px;
+    box-shadow: 1px -3px 49px 17px rgba(71,255,214,0.75);
+    -webkit-box-shadow: 1px -3px 49px 17px rgba(71,255,214,0.75);
+    -moz-box-shadow: 1px -3px 49px 17px rgba(71,255,214,0.75);
+    border-radius: 15px;
+
+}
+
+#titre{
+    color: white;
+    font-size: larger;
+    text-align: center;
+    padding-top: 10px;
+}
+#divformulaire{
+    height:40px ;
+    width: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* padding-top: 10px; */
+    background-color: #151431;
+ 
+   
+}
+
+#inputform{
+    background-color: #151431;
+    border: none;
+    height: 30px;
+    width: 200px;
+    color: white;
+}
+
+#inputbtn{
+    height:30px;
+    width: 35px;
+    border: none;
+    background-image: url(../img/pngegg\ \(1\).png);
+    background-position: center;
+    background-size: 80%;
+    background-color: #33328C ;
+}
+.btnform{
+    
+    display: flex;
+    width: 250px;
+    height: 30px;
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+    
+}
+
+.pinform{
+    color: white;
+}
+
+#btnnombre{
+    width: 30px;
+    height: 10px;
+}
+#btngenerate{
+    width: 250px;
+    height: 30px;
+    background-color: #33328C;
+    border: none;
+    color: white;
+    border-radius: 15px;
+
+}
