@@ -1,3 +1,6 @@
+/* @font-face{
+    font-family: Arial, Helvetica, sans-serif;
+} */
 body{
     background-color: #33328C;
     width: 100vw;
@@ -14,14 +17,12 @@ body{
     width: 300px;
     display: flex;
     align-items: center;
-    /* justify-content: center; */
     flex-direction: column;
     gap: 8px;
     box-shadow: 1px -3px 49px 17px rgba(71,255,214,0.75);
     -webkit-box-shadow: 1px -3px 49px 17px rgba(71,255,214,0.75);
     -moz-box-shadow: 1px -3px 49px 17px rgba(71,255,214,0.75);
     border-radius: 15px;
-
 }
 
 #titre{
@@ -29,6 +30,7 @@ body{
     font-size: larger;
     text-align: center;
     padding-top: 10px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 #divformulaire{
     height:40px ;
@@ -36,10 +38,8 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
-    /* padding-top: 10px; */
     background-color: #151431;
- 
-   
+    border-radius: 15px;
 }
 
 #inputform{
@@ -48,6 +48,8 @@ body{
     height: 30px;
     width: 200px;
     color: white;
+    outline: none;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 #inputbtn{
@@ -58,22 +60,27 @@ body{
     background-position: center;
     background-size: 80%;
     background-color: #33328C ;
+    border-radius: 10px;
+    transition: 0.3s;
+}
+
+#inputbtn:active{
+    border-radius: 20px;
+
 }
 .btnform{
-    
     display: flex;
     width: 250px;
     height: 30px;
     justify-content: space-between;
     display: flex;
     align-items: center;
-    
 }
 
 .pinform{
     color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
-
 #btnnombre{
     width: 30px;
     height: 10px;
@@ -85,5 +92,16 @@ body{
     border: none;
     color: white;
     border-radius: 15px;
-
+    transition: 0.4s;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: medium;
+}
+#btngenerate:hover{
+    -webkit-box-shadow: inset -1px 3px 18px 3px rgba(20,153,224,1); */
+    -moz-box-shadow: inset -1px 3px 18px 3px rgba(20,153,224,1);
+    box-shadow: inset -1px 3px 18px 3px rgba(20,153,224,1);
+}
+#btngenerate:active{
+    background-color: white;
+    color: black;
 }
