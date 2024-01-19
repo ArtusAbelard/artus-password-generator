@@ -1,7 +1,7 @@
 
 let btnnombre = document.querySelector("#btnnombre");
-let inputform = document.querySelector("#inputform")
-let copybtn = document.querySelector("#inputbtn")
+let inputform = document.querySelector("#inputform");
+let copybtn = document.querySelector("#inputbtn");
 let btn = document.querySelector('#btngenerate');
 let btn1 = document.querySelector("#btn1");
 let btn2 = document.querySelector("#btn2");
