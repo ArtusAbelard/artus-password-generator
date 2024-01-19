@@ -97,7 +97,7 @@ body{
     font-size: medium;
 }
 #btngenerate:hover{
-    -webkit-box-shadow: inset -1px 3px 18px 3px rgba(20,153,224,1); */
+    -webkit-box-shadow: inset -1px 3px 18px 3px rgba(20,153,224,1); 
     -moz-box-shadow: inset -1px 3px 18px 3px rgba(20,153,224,1);
     box-shadow: inset -1px 3px 18px 3px rgba(20,153,224,1);
 }
